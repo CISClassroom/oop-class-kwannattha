@@ -33,9 +33,7 @@ kwan.major = "สาขาวิทยาการคอมพิวเตอร
 แสดงข้อมูลวัตถุนักศึกษา ออกทาง console
 
 ```java
-System.out.println("1." + kwan.name + " " + kwan.major);
-Student[] oopStudents = {kwan};
-System.out.println("1." +oopStudents[0].name);
+System.out.println("1." + kwan.name + " " + kwan.major + " " + kwan.sex);
 ```
 
 ## Data collection
@@ -86,7 +84,7 @@ Student kwan = new Student();
     {
         for (int i = 0; i < students.length; i++)
         {
-            if (students[i].sex == "ผู็หญิง")
+            if (students[i].sex == "ผู้หญิง")
             {
                 System.out.println(i+1 + ". " + students[i].name);
             }

@@ -51,7 +51,7 @@ public class Main {
     {
         for (int i = 0; i < students.length; i++)
         {
-            if (students[i].sex == "ผู็หญิง")
+            if (students[i].sex == "ผู้หญิง")
             {
                 System.out.println(i+1 + ". " + students[i].name);
             }
